@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TolDee</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="assets/images/download.png" alt="" height="100px" width="100px" style="padding: 5px; border-radius: 100%;">
+        </div>
+        
+        <input type="checkbox" id="menu-toggler">
+        <label for="menu-toggler" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </label>
+        <ul class="all-links">
+          <li><a href="index.html"><h3>Home</h3></a></li>
+          <li><a href="services.html"><h3>Services</h3></a></li>
+          <li><a href="portfolio.html"><h3>Portfolio</h3></a></li>
+          <li><a href="#about us"><h3>About Us</h3></a></li>
+          <li><a href="index.html"><h3>Contact Us</h3></a></li>
+          <li><a href="teams.html"><h3>Teams</h3></a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="homepage" id="home">
+      <div class="content">
+        <div class="slider">
+          <img id="img-1" src="assets/images/12.jpg" alt=""/>
+          <img id="img-2" src="assets/images/3.jpg" alt=""/>
+          <img id="img-3" src="assets/images/4.jpg" alt=""/>
+        </div>
+        <div class="navigation-button">
+           <span class="dot active" onclick="changeSlide(0)"></span>
+           <span class="dot" onclick="changeSlide(1)"></span>
+           <span class="dot" onclick="changeSlide(2)"></span>
+        </div> 
+        <div class="text">
+          <img src="assets/images/download.png" alt="" style="border-radius: 100%; height: 300px; padding: 20px; position: relative;">
+          <h2>
+            <p>ADIGBE BRANCH <br><br><i>"Go ye therefore and teach all nations ..." </i>Matt. 28 vs 18 -20</p>
+          </h2>
+        </div>
+        <a href="services.html">Find Out More</a>
+      </div>
+   </section>
+    <footer>
+        <span>Copyright © 2023 All Rights Reserved</span>
+    </footer>
+  </body>
+</html>
